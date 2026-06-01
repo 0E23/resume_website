@@ -67,6 +67,17 @@ export default function LateNightStairsPage() {
             </div>
           </div>
           <p className="text-center text-[#e8e8ec]/40 text-sm mt-4">第一人称视角</p>
+          <div className="text-center mt-4">
+            <p className="text-[#e8e8ec]/60 text-sm mb-2">【深夜楼梯间】</p>
+            <a 
+              href="https://www.bilibili.com/video/BV1HYV964EHJ/?share_source=copy_web&vd_source=6752ae59e5271570db93a95511fb4359"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#c4a35a] text-sm hover:underline break-all"
+            >
+              https://www.bilibili.com/video/BV1HYV964EHJ/
+            </a>
+          </div>
         </section>
 
         {/* 渲染图展示 */}
