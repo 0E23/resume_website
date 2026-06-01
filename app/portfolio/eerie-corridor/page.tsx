@@ -61,7 +61,7 @@ export default function EerieCorridorPage() {
                 muted
                 playsInline
               >
-                <source src="/eerie-corridor-main.mp4" type="video/mp4" />
+                <source src="/eerie-corridor-main-new.mp4" type="video/mp4" />
                 您的浏览器不支持视频播放
               </video>
             </div>
