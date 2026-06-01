@@ -163,7 +163,7 @@ export default function ClassicalDresserPage() {
                 muted
                 playsInline
               >
-                <source src="/classical-dresser-main.mp4" type="video/mp4" />
+                <source src="/videos/classical-dresser-main.mp4" type="video/mp4" />
                 您的浏览器不支持视频播放
               </video>
             </div>
