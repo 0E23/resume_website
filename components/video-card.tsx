@@ -55,14 +55,18 @@ export function VideoCard({ project, isHovered, onHoverChange }: VideoCardProps)
     >
       {/* Thumbnail Image */}
       <div className={cn("absolute inset-0 transition-opacity duration-700", isHovered ? "opacity-0" : "opacity-100")}>
-        <img
-          src={project.thumbnail || "/placeholder.svg"}
-          alt={project.title}
-          className={cn(
-            "w-full h-full object-cover transition-all duration-700",
-            !isHovered && "grayscale brightness-75",
-          )}
-        />
+        {project.thumbnail ? (
+          <img
+            src={project.thumbnail}
+            alt={project.title}
+            className={cn(
+              "w-full h-full object-cover transition-all duration-700",
+              !isHovered && "grayscale brightness-75",
+            )}
+          />
+        ) : (
+          <div className="w-full h-full bg-black" />
+        )}
       </div>
 
       {/* Video / Hover Image */}
@@ -85,7 +89,9 @@ export function VideoCard({ project, isHovered, onHoverChange }: VideoCardProps)
             alt={project.title}
             className="w-full h-full object-cover transition-all duration-700"
           />
-        ) : null}
+        ) : (
+          <div className="w-full h-full bg-black" />
+        )}
       </div>
 
       <div

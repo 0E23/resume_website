@@ -35,7 +35,7 @@ const projects = [
   {
     id: 3,
     title: "深夜楼梯间",
-    category: "创意",
+    category: "游戏场景",
     year: "2024",
     yearImage: "/ue-logo-final.png",
     yearImage2: "/pt-logo.png",
@@ -48,7 +48,7 @@ const projects = [
   {
     id: 4,
     title: "建筑寺庙",
-    category: "营销",
+    category: "游戏场景",
     year: "2024",
     yearImage: "/ue-logo-final.png",
     yearImage2: "/sd-logo-new.png",
@@ -80,7 +80,13 @@ export function WorksGallery() {
       <CustomCursor isActive={hoveredId !== null} />
       <div className="container mx-auto px-6">
         <div className="flex gap-4 items-stretch">
-          {projects.map((project) => (
+          <VideoCard
+            key="blood-scene"
+            project={{...projects[0], thumbnail: "/DT_02.png", hoverImage: "/DT_02.png", title: "血案现场", slug: "blood-scene"}}
+            isHovered={hoveredId === 201}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 201 : null)}
+          />
+          {projects.slice(0, 4).map((project) => (
             <VideoCard
               key={project.id}
               project={project}
@@ -88,6 +94,38 @@ export function WorksGallery() {
               onHoverChange={(hovered) => setHoveredId(hovered ? project.id : null)}
             />
           ))}
+        </div>
+        <div className="flex gap-4 items-stretch mt-8">
+          <VideoCard
+            key="classical-dresser"
+            project={projects[4]}
+            isHovered={hoveredId === 5}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 5 : null)}
+          />
+          <VideoCard
+            key="black-1"
+            project={{...projects[0], thumbnail: "", hoverImage: "", title: "……"}}
+            isHovered={hoveredId === 202}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 202 : null)}
+          />
+          <VideoCard
+            key="black-2"
+            project={{...projects[1], thumbnail: "", hoverImage: "", title: "……"}}
+            isHovered={hoveredId === 203}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 203 : null)}
+          />
+          <VideoCard
+            key="black-3"
+            project={{...projects[2], thumbnail: "", hoverImage: "", title: "……"}}
+            isHovered={hoveredId === 204}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 204 : null)}
+          />
+          <VideoCard
+            key="black-4"
+            project={{...projects[3], thumbnail: "", hoverImage: "", title: "……"}}
+            isHovered={hoveredId === 205}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 205 : null)}
+          />
         </div>
       </div>
     </>
