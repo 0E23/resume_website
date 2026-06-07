@@ -4,6 +4,15 @@ import Image from "next/image"
 const portfolioItems = [
   {
     id: 1,
+    title: "血案现场",
+    category: "UE5 场景",
+    description: "犯罪现场重建场景，注重细节表现与氛围营造",
+    image: "/DT_02.png",
+    tools: ["Unreal Engine 5", "Lumen", "Nanite"],
+    slug: "blood-scene",
+  },
+  {
+    id: 2,
     title: "诡异走廊",
     category: "UE5 场景",
     description: "废弃医院走廊场景，注重光影氛围与恐怖感营造",

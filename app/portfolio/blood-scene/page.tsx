@@ -67,6 +67,12 @@ export default function BloodScenePage() {
             </div>
           </div>
           <p className="text-center text-[#e8e8ec]/40 text-sm mt-4">现场重建</p>
+          <div className="text-center mt-4">
+            <p className="text-[#e8e8ec]/60 text-sm mb-2">【血案现场】</p>
+            <a href="https://www.bilibili.com/video/BV1MLEt6rEc6/?share_source=copy_web&vd_source=6752ae59e5271570db93a95511fb4359" target="_blank" rel="noopener noreferrer" className="text-[#c4a35a] text-sm hover:underline break-all">
+              https://www.bilibili.com/video/BV1MLEt6rEc6/
+            </a>
+          </div>
         </section>
 
         {/* 渲染图展示 */}
