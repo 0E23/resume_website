@@ -104,7 +104,7 @@ export function WorksGallery() {
           />
           <VideoCard
             key="black-1"
-            project={{...projects[0], thumbnail: "", hoverImage: "", title: "……"}}
+            project={{...projects[0], thumbnail: "/home-blood-scene.png", hoverImage: "/home-blood-scene.png", title: "西班牙小镇", slug: "home-blood-scene"}}
             isHovered={hoveredId === 202}
             onHoverChange={(hovered) => setHoveredId(hovered ? 202 : null)}
           />
