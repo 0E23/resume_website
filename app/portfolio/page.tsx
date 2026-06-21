@@ -56,6 +56,15 @@ const portfolioItems = [
     tools: ["Substance Designer", "Substance Painter"],
     slug: "classical-dresser",
   },
+  {
+    id: 6,
+    title: "西班牙小镇",
+    category: "UE5 场景",
+    description: "风格化西班牙小镇，明亮的场景氛围，鲜艳的颜色处理",
+    image: "/home-blood-scene.png",
+    tools: ["Unreal Engine 5", "Maya", "Substance Designer", "Painter"],
+    slug: "home-blood-scene",
+  },
 ]
 
 export default function PortfolioPage() {

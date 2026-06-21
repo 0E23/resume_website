@@ -41,7 +41,7 @@ export default function HomeBloodScenePage() {
             <span className="text-bronze-gradient">西班牙小镇</span>
           </h1>
           <p className="text-[#e8e8ec]/60 text-lg font-light max-w-2xl">
-            犯罪现场重建场景，注重细节表现与氛围营造。通过 UE5 的 Lumen 全局光照打造逼真的犯罪现场重建。
+            风格化西班牙小镇，明亮的场景氛围，鲜艳的颜色处理，使用MAYA，SD，PT制作建筑资产，使用UE5进行场景搭建。
           </p>
           <div className="flex flex-wrap gap-3 mt-6">
             <span className="px-3 py-1 text-xs rounded-full border border-[#c4a35a]/30 text-[#c4a35a]">UE5 场景</span>
@@ -61,7 +61,7 @@ export default function HomeBloodScenePage() {
               />
             </div>
           </div>
-          <p className="text-center text-[#e8e8ec]/40 text-sm mt-4">现场重建</p>
+          <p className="text-center text-[#e8e8ec]/40 text-sm mt-4">西班牙小镇</p>
         </section>
 
         {/* 渲染图展示 */}
@@ -115,6 +115,59 @@ export default function HomeBloodScenePage() {
           </div>
         </section>
 
+        {/* 模块化建筑展示 */}
+        <section className="max-w-6xl mx-auto px-6 mb-16">
+          <h2 className="text-xl font-semibold mb-6 text-bronze-gradient">模块化建筑</h2>
+          <div className="flex justify-center gap-4">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[48rem]">
+              <div className="relative overflow-hidden">
+                <Image
+                src="/spain-town-modular.png"
+                alt="模块化建筑1"
+                width={1920}
+                height={1080}
+                className="object-contain transition-transform duration-700 group-hover:scale-105 w-full"
+              />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 制作过程 */}
+        <section className="max-w-6xl mx-auto px-6 mb-16">
+          <h2 className="text-xl font-semibold mb-6 text-bronze-gradient">制作过程</h2>
+          <div className="flex justify-center gap-4">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[48rem]">
+              <div className="aspect-video relative overflow-hidden">
+                <Image
+                src="/spain-town-process.gif"
+                alt="制作过程"
+                fill
+                className="object-fill transition-transform duration-700 group-hover:scale-105"
+              />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 材质展示 */}
+        <section className="max-w-6xl mx-auto px-6 mb-16">
+          <h2 className="text-xl font-semibold mb-6 text-bronze-gradient">材质展示</h2>
+          <div className="flex justify-center gap-4">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[48rem]">
+              <div className="relative overflow-hidden">
+                <Image
+                src="/spain-town-material.png"
+                alt="材质展示"
+                width={1920}
+                height={1080}
+                className="object-contain transition-transform duration-700 group-hover:scale-105 w-full"
+              />
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* 项目信息 */}
         <section className="max-w-6xl mx-auto px-6">
           <div className="rounded-2xl border border-white/5 bg-white/[0.02] p-8">
@@ -126,11 +179,11 @@ export default function HomeBloodScenePage() {
               </div>
               <div>
                 <p className="text-[#e8e8ec]/40 text-sm mb-2">项目类型</p>
-                <p className="text-[#e8e8ec]">场景重建</p>
+                <p className="text-[#e8e8ec]">风格化场景</p>
               </div>
               <div>
                 <p className="text-[#e8e8ec]/40 text-sm mb-2">创作时间</p>
-                <p className="text-[#e8e8ec]">2026</p>
+                <p className="text-[#e8e8ec]">2025</p>
               </div>
             </div>
           </div>
