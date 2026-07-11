@@ -51,7 +51,7 @@ export default function LateNightStairsPage() {
 
         {/* 主视频展示 */}
         <section className="max-w-6xl mx-auto px-6 mb-16">
-          <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] max-w-md mx-auto">
+          <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] max-w-[29.4rem] mx-auto">
             <div className="aspect-[3/4] relative">
               <video
                 className="w-full h-full object-cover"
@@ -84,7 +84,7 @@ export default function LateNightStairsPage() {
         <section className="max-w-6xl mx-auto px-6 mb-16">
           <h2 className="text-xl font-semibold mb-6 text-bronze-gradient">渲染图</h2>
           <div className="flex justify-center">
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-80">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[30rem]">
               <div className="aspect-[3/4] relative overflow-hidden">
                 <Image
                   src="/late-night-stairs-render.png"

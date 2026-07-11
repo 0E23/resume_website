@@ -81,12 +81,18 @@ export function WorksGallery() {
       <div className="container mx-auto px-6">
         <div className="flex gap-4 items-stretch">
           <VideoCard
+            key="black-2"
+            project={{...projects[1], thumbnail: "/home-new-project.jpg", hoverImage: "/home-new-project.jpg", title: "神秘山洞", slug: "mysterious-cave"}}
+            isHovered={hoveredId === 203}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 203 : null)}
+          />
+          <VideoCard
             key="blood-scene"
             project={{...projects[0], thumbnail: "/DT_02.png", hoverImage: "/DT_02.png", title: "血案现场", slug: "blood-scene"}}
             isHovered={hoveredId === 201}
             onHoverChange={(hovered) => setHoveredId(hovered ? 201 : null)}
           />
-          {projects.slice(0, 4).map((project) => (
+          {projects.slice(0, 3).map((project) => (
             <VideoCard
               key={project.id}
               project={project}
@@ -97,10 +103,10 @@ export function WorksGallery() {
         </div>
         <div className="flex gap-4 items-stretch mt-8">
           <VideoCard
-            key="classical-dresser"
-            project={projects[4]}
-            isHovered={hoveredId === 5}
-            onHoverChange={(hovered) => setHoveredId(hovered ? 5 : null)}
+            key="temple-arch"
+            project={projects[3]}
+            isHovered={hoveredId === 4}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 4 : null)}
           />
           <VideoCard
             key="black-1"
@@ -109,10 +115,10 @@ export function WorksGallery() {
             onHoverChange={(hovered) => setHoveredId(hovered ? 202 : null)}
           />
           <VideoCard
-            key="black-2"
-            project={{...projects[1], thumbnail: "", hoverImage: "", title: "……"}}
-            isHovered={hoveredId === 203}
-            onHoverChange={(hovered) => setHoveredId(hovered ? 203 : null)}
+            key="classical-dresser"
+            project={projects[4]}
+            isHovered={hoveredId === 5}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 5 : null)}
           />
           <VideoCard
             key="black-3"

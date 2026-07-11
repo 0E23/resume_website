@@ -51,7 +51,7 @@ export default function BloodScenePage() {
 
         {/* 主视频展示 */}
         <section className="max-w-6xl mx-auto px-6 mb-16">
-          <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] max-w-2xl mx-auto">
+          <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] max-w-[84rem] mx-auto">
             <div className="aspect-video relative">
               <video
                 className="w-full h-full object-cover"
@@ -79,7 +79,7 @@ export default function BloodScenePage() {
         <section className="max-w-6xl mx-auto px-6 mb-16">
           <h2 className="text-xl font-semibold mb-6 text-bronze-gradient">渲染图</h2>
           <div className="flex justify-center gap-4">
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-96">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[48rem]">
               <div className="aspect-video relative overflow-hidden">
                 <Image
                 src="/DT_01.png"
@@ -89,7 +89,7 @@ export default function BloodScenePage() {
               />
               </div>
             </div>
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-96">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[48rem]">
               <div className="aspect-video relative overflow-hidden">
                 <Image
                 src="/DT_02_new.png"
@@ -106,7 +106,7 @@ export default function BloodScenePage() {
         <section className="max-w-6xl mx-auto px-6 mb-16">
           <h2 className="text-xl font-semibold mb-6 text-bronze-gradient">制作过程</h2>
           <div className="flex justify-center gap-4">
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[48rem]">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[72rem]">
               <div className="aspect-video relative overflow-hidden">
                 <Image
                 src="/blood-scene-process.gif"

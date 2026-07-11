@@ -86,7 +86,7 @@ export default function AbandonedStudyPage() {
         <section className="max-w-6xl mx-auto px-6 mb-16">
           <h2 className="text-xl font-semibold mb-6 text-bronze-gradient">渲染图</h2>
           <div className="flex flex-wrap justify-center gap-6">
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-80">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[70rem]">
               <div className="aspect-video relative overflow-hidden">
                 <Image
                   src="/abandoned-study-render3.png"
@@ -96,7 +96,7 @@ export default function AbandonedStudyPage() {
                 />
               </div>
             </div>
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-80">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[70rem]">
               <div className="aspect-video relative overflow-hidden">
                 <Image
                   src="/abandoned-study-render4.png"
@@ -106,7 +106,7 @@ export default function AbandonedStudyPage() {
                 />
               </div>
             </div>
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-80">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] group w-[70rem]">
               <div className="aspect-video relative overflow-hidden">
                 <Image
                   src="/abandoned-study-render5.png"
