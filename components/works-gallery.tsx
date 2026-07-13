@@ -87,10 +87,10 @@ export function WorksGallery() {
             onHoverChange={(hovered) => setHoveredId(hovered ? 203 : null)}
           />
           <VideoCard
-            key="blood-scene"
-            project={{...projects[0], thumbnail: "/DT_02.png", hoverImage: "/DT_02.png", title: "血案现场", slug: "blood-scene"}}
-            isHovered={hoveredId === 201}
-            onHoverChange={(hovered) => setHoveredId(hovered ? 201 : null)}
+            key="temple-arch"
+            project={projects[3]}
+            isHovered={hoveredId === 4}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 4 : null)}
           />
           {projects.slice(0, 3).map((project) => (
             <VideoCard
@@ -102,12 +102,6 @@ export function WorksGallery() {
           ))}
         </div>
         <div className="flex gap-4 items-stretch mt-8">
-          <VideoCard
-            key="temple-arch"
-            project={projects[3]}
-            isHovered={hoveredId === 4}
-            onHoverChange={(hovered) => setHoveredId(hovered ? 4 : null)}
-          />
           <VideoCard
             key="black-1"
             project={{...projects[0], thumbnail: "/home-blood-scene.png", hoverImage: "/home-blood-scene.png", title: "西班牙小镇", slug: "home-blood-scene"}}
@@ -125,6 +119,12 @@ export function WorksGallery() {
             project={{...projects[2], thumbnail: "", hoverImage: "", title: "……"}}
             isHovered={hoveredId === 204}
             onHoverChange={(hovered) => setHoveredId(hovered ? 204 : null)}
+          />
+          <VideoCard
+            key="blood-scene"
+            project={{...projects[0], thumbnail: "", hoverImage: "", title: "……"}}
+            isHovered={hoveredId === 201}
+            onHoverChange={(hovered) => setHoveredId(hovered ? 201 : null)}
           />
           <VideoCard
             key="black-4"
