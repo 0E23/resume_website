@@ -111,8 +111,8 @@ export default function ClassicalDresserPage() {
         {/* DS材质展示 */}
         <section className="max-w-6xl mx-auto px-6 mb-16">
           <h2 className="text-xl font-semibold mb-6 text-bronze-gradient">DS材质</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02]">
+          <div className="flex flex-col items-center gap-6 mb-6">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] w-[69.6rem]">
               <div className="aspect-[4780/2000] relative overflow-hidden">
                 <Image
                   src="/ds-weiqi.png"
@@ -122,7 +122,7 @@ export default function ClassicalDresserPage() {
                 />
               </div>
             </div>
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02]">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] w-[69.6rem]">
               <div className="aspect-[4780/2000] relative overflow-hidden">
                 <Image
                   src="/ds-mahjong.png"
@@ -132,7 +132,7 @@ export default function ClassicalDresserPage() {
                 />
               </div>
             </div>
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02]">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] w-[69.6rem]">
               <div className="aspect-[4780/2000] relative overflow-hidden">
                 <Image
                   src="/ds-chess.png"
@@ -142,7 +142,7 @@ export default function ClassicalDresserPage() {
                 />
               </div>
             </div>
-            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02]">
+            <div className="rounded-2xl overflow-hidden border border-white/5 bg-white/[0.02] w-[69.6rem]">
               <div className="aspect-[4780/2000] relative overflow-hidden">
                 <Image
                   src="/ds-bamboo.png"
@@ -185,7 +185,7 @@ export default function ClassicalDresserPage() {
               </div>
               <div>
                 <p className="text-[#e8e8ec]/40 text-sm mb-2">创作时间</p>
-                <p className="text-[#e8e8ec]">2026</p>
+                <p className="text-[#e8e8ec]">2025</p>
               </div>
             </div>
           </div>

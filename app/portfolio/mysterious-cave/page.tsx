@@ -124,7 +124,7 @@ export default function MysteriousCavePage() {
               </div>
               <div>
                 <p className="text-[#e8e8ec]/40 text-sm mb-2">创作时间</p>
-                <p className="text-[#e8e8ec]">2025</p>
+                <p className="text-[#e8e8ec]">2026</p>
               </div>
             </div>
           </div>
