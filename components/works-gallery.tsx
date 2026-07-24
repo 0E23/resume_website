@@ -116,19 +116,19 @@ export function WorksGallery() {
           />
           <VideoCard
             key="black-3"
-            project={{...projects[2], thumbnail: "", hoverImage: "", title: "……"}}
+            project={{...projects[2], thumbnail: "/ue-lighting-01.png", hoverImage: "/ue-lighting-01.png", title: "UE灯光", tools: [], slug: "ue-lighting", yearImage2: undefined, yearImage3: undefined}}
             isHovered={hoveredId === 204}
             onHoverChange={(hovered) => setHoveredId(hovered ? 204 : null)}
           />
           <VideoCard
             key="blood-scene"
-            project={{...projects[0], thumbnail: "", hoverImage: "", title: "……"}}
+            project={{...projects[0], thumbnail: "", hoverImage: "", title: "无"}}
             isHovered={hoveredId === 201}
             onHoverChange={(hovered) => setHoveredId(hovered ? 201 : null)}
           />
           <VideoCard
             key="black-4"
-            project={{...projects[3], thumbnail: "", hoverImage: "", title: "……"}}
+            project={{...projects[3], thumbnail: "", hoverImage: "", title: "无"}}
             isHovered={hoveredId === 205}
             onHoverChange={(hovered) => setHoveredId(hovered ? 205 : null)}
           />

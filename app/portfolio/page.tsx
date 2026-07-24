@@ -65,6 +65,15 @@ const portfolioItems = [
     tools: ["Unreal Engine 5", "Maya", "Substance Designer", "Painter"],
     slug: "home-blood-scene",
   },
+  {
+    id: 7,
+    title: "UE灯光",
+    category: "UE5 灯光",
+    description: "UE5 灯光练习场景，探索 Lumen 全局光照与体积雾效果",
+    image: "/ue-lighting-01.png",
+    tools: ["Unreal Engine 5"],
+    slug: "ue-lighting",
+  },
 ]
 
 export default function PortfolioPage() {
